@@ -3,8 +3,8 @@ Mobile-API for Wolvesville mobile game
 
 ## Example
 ```python
-import wolvesville
+from wolvesville import WolvesVille
 
-wolvesville = wolvesville.WolvesVille()
-wolvesville.login(email="", password="")
+wolvesville = WolvesVille()
+wolvesville.login(email="example@gmail.com", password="password")
 ```
